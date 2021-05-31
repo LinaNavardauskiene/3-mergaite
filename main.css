@@ -1,50 +1,49 @@
 body{
     background: black;
     width: 800px;
-    margin-left: calc((100% - 800px) / 2);
-}
-.pagrindinis-fonas{
-    width: 800px;
     background: #F8F8F8;
     margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: calc((100% - 800px) / 2);
 }
 header {
     display:inline-block;
     width: 800px;
     background-color: aqua;
-}
+    }
 
 .logo {
-    display:inline-block;
+    float: left;
     width: 100px;
     margin-left: 8%;
-    margin-top: 25px;
     background-color: aquamarine;
 }
 .nuorodos {
-    width: 700px;
-    display: inline-block;
     float: right;
-    color: silver;
-    text-decoration: none;
+    
     font-size: 20px;
-    font-weight: 700px;
+    padding-top: 25px;
 }
-.nuorodos: :nth-child(5) {
-    display: inline-block;
-    margin-right: 50px;
-    color: silver;
+
+a {color: silver;
+    padding-left: 25px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 2px;
 }
+a:last-of-type {
+    border-color: #9d9d9d;
+    margin-left: 30px;
+    border: 3px solid silver;
+  border-radius: 12px;
+  padding: 3px;
+
+  }
+  
 
 .pagrindinio-vaizdo-langas {
     display: inline-block;
     color: silver;
     width: 800px;
+    margin-left: calc((100% - 800px) / 2);
 }
 
 .antraste {
