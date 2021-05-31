@@ -1,0 +1,71 @@
+body{
+    background: black;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+}
+.pagrindinis-fonas{
+    width: 800px;
+    background: #F8F8F8;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    display:inline-block;
+    width: 800px;
+    background-color: aqua;
+}
+
+.logo {
+    display:inline-block;
+    width: 100px;
+    margin-left: 8%;
+    margin-top: 25px;
+    background-color: aquamarine;
+}
+.nuorodos {
+    width: 700px;
+    display: inline-block;
+    float: right;
+    color: silver;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.nuorodos: :nth-child(5) {
+    display: inline-block;
+    margin-right: 50px;
+    color: silver;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.pagrindinio-vaizdo-langas {
+    display: inline-block;
+    color: silver;
+    width: 800px;
+}
+
+.antraste {
+    display: inline-block;
+    width: 35%;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 113px;
+}
+.mergaite-img {
+    display: inline-block;
+    width: 45%;
+    float: right;
+    margin-right: 2%;
+}
+.tekstas {
+    display: inline-block;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 0;
+    font-size: 31px;
+    padding-bottom: 100px;
+}
