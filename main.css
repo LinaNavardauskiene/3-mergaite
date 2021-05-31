@@ -1,7 +1,6 @@
 body{
     background: black;
     width: 800px;
-    background: #F8F8F8;
     margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: calc((100% - 800px) / 2);
@@ -9,62 +8,61 @@ body{
 header {
     display:inline-block;
     width: 800px;
-    background-color: aqua;
-    }
+    background: #F8F8F8;
+}
 
 .logo {
     float: left;
-    width: 100px;
+    width: 70px;
     margin-left: 8%;
-    background-color: aquamarine;
 }
 .nuorodos {
     float: right;
-    
-    font-size: 20px;
-    padding-top: 25px;
+    font-size: 12px;
+    padding-top: 22px;
 }
 
 a {color: silver;
-    padding-left: 25px;
+    padding-left: 9px;
     text-decoration: none;
 }
 a:last-of-type {
     border-color: #9d9d9d;
     margin-left: 30px;
+    margin-right: 30px;
     border: 3px solid silver;
-  border-radius: 12px;
-  padding: 3px;
-
-  }
+    border-radius: 19px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
   
-
 .pagrindinio-vaizdo-langas {
     display: inline-block;
     color: silver;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
+    background: #F8F8F8;
 }
 
 .antraste {
     display: inline-block;
     width: 35%;
     margin: 0;
-    margin-left: 10%;
-    margin-top: 10%;
-    font-size: 113px;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 71px;
 }
 .mergaite-img {
     display: inline-block;
-    width: 45%;
+    width: 52%;
     float: right;
-    margin-right: 2%;
 }
 .tekstas {
     display: inline-block;
     width: 35%;
-    margin-left: 10%;
-    margin-top: 0;
-    font-size: 31px;
-    padding-bottom: 100px;
+    margin: 0;
+    margin-left: 100px;
+    /* margin-top: 80px; */
+    font-size: 20px;
 }
